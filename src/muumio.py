@@ -82,15 +82,6 @@ def main():
 		graffat = GraphicsEngine()
 		print "Graphics initialized..."
 		
-		'''
-		Background was downloaded from
-		http://pixabay.com/en/pyramids-egypt-sandstorm-103304/
-		© 2013 Pixabay - Free Images
-		'''
-		
-		#graffat.set_background(os.path.join('img', 'pyramids-103304_640.jpg'))
-		#print "Background loaded..."
-		
 		interfeissi = CommandEngine()
 		
 		if_done = False
