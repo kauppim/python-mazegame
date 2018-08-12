@@ -72,7 +72,7 @@ class GraphicsEngine(object):
 		
 	def draw_solution(self, array, show_which_level):
 		self.screen.fill(SANDY)
-		self.screen.blit(self.background, self.bg_rect)
+		#self.screen.blit(self.background, self.bg_rect)
 		
 		y_point = 0
 		for y in range( len( array[show_which_level] ) ):

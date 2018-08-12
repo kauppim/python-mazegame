@@ -1,6 +1,8 @@
 '''
 Muumio - a 3d maze game
 
+The main program
+
 author:	Mikael Kauppinen
 email:	mikael.kauppinen@iki.fi
 
@@ -46,10 +48,9 @@ def main():
 		print "MazeGen initialized..."
 		
 		'''
-		I'm not sure if this works as it's supposed to work.
-		
-		The purpose of this is to break the execution of the generate_maze,
-		when too much time has passed, and no maze will evidently be produced.
+		The purpose of calling the signal function is to break the execution of generate_maze,
+		if no maze seems to be produced. This was to fix the error in the generate_maze algorithm,
+        as it cannot always be guaranteed that its execution stops.
 		'''
 		
 		maze_done = False
