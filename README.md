@@ -6,14 +6,12 @@ This project has been submitted as a project work for Aalto University's course 
 
 ## What works or doesn't
 
- * Generating mazes:
-Sometimes the algorithm may never reach an end. Solvability of the generated mazes is not guaranteed.
+ * Generating mazes: Sometimes the algorithm may never reach an end. Solvability of the generated mazes is not guaranteed.
  * Saving and loading mazes from text files
  * Playing the game
  * Graphics
  * Command engine
- * Algorithm to solve mazes
-Solver algorithm doen't work for mazes loaded from files. Also the solution visualizer isn't that visual.
+ * Algorithm to solve mazes: Solver algorithm doen't work for mazes loaded from files. Also the solution visualizer isn't that visual.
 
 ## Project architecture
 
