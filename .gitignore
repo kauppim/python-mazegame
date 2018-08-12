@@ -104,3 +104,4 @@ venv.bak/
 .mypy_cache/
 
 .suo
+src/.vs/python-mazegame/v14/.suo
